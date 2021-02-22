@@ -5,7 +5,7 @@ import (
 	"github.com/hanskorg/logkit"
 	"os"
 	"os/signal"
-	"qrcode.icool.io/http"
+	"peanuts/http"
 	"syscall"
 )
 

@@ -1,7 +1,7 @@
 GOOS       = linux
 GOARCH     = amd64
 NAME       = peanuts
-BIN_PATH   = $(shell pwd)/bin/
+BIN_PATH   = $(shell pwd)/bin
 VERSION?   =
 
 imageName = $(NAME)

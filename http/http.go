@@ -6,7 +6,7 @@ import (
     "github.com/hanskorg/logkit"
     "io"
     "net/http"
-    "qrcode.icool.io/tools"
+	"peanuts/tools"
 )
 
 var (
