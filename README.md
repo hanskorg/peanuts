@@ -9,7 +9,7 @@ apis for some web components
 
 - Start with Docker  
     ```bash  
-     docker run --name peanuts -p 9909:9909 hansk887/peanuts 
+     docker run --name peanuts -d -p 9909:9909 hansk887/peanuts 
     ```
 
 - Start with code
