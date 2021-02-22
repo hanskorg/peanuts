@@ -2,5 +2,6 @@ package main
 
 var (
 	Version string
-	Build string
+	Build   string
+	Name    string
 )
