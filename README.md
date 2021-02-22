@@ -1,9 +1,9 @@
 ## Peanutes 
 apis for some web components
-
 ---
+
 ### components
- - [x] qrcode 二维码
+ - [x] qrcode 二维码 http://localhost:9909/qrcode?i=xxxxx
 
 ### Usage
 
@@ -16,3 +16,4 @@ apis for some web components
     ```bash
      go run api.go -log.alsoStdout=1
     ```
+-- 
