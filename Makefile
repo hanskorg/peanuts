@@ -18,7 +18,7 @@ else
 endif
 
 
-LDFLAGS=-ldflags "-X 'peanuts/config.Version=$(VERSION)$(VERPERFIX)' -X 'peanuts/config.Build=`TZ=UTC-8 date +%FT%T%z`' -X peanuts/config.Name=peanuts"
+LDFLAGS=-ldflags "-X 'peanuts/main.Version=$(VERSION)$(VERPERFIX)' -X 'peanuts/main.Build=`TZ=UTC-8 date +%FT%T%z`' -X peanuts/main.Name=peanuts"
 
 build:
 	GOOS=$(GOOS) GOARCH=$(GOARCH) go build ${LDFLAGS} -o $(BIN_PATH)/api api.go
